@@ -1,60 +1,121 @@
 # Privacy Policy — DreamWeave
 
-**Last updated: March 21, 2026**
+**Last updated:** 2026-03-21
+**Effective date:** 2026-03-21
 
-DreamWeave ("the app") is developed and operated by Sudarshantechlabs ("we", "us", "our"). This Privacy Policy explains how we collect, use, and protect your information when you use DreamWeave on Android.
+This Privacy Policy describes how **Sudarshan Tech Labs** ("we", "us", or "our") handles information in connection with the **DreamWeave** Android application ("the App").
 
-## 1. Information We Collect
+---
 
-### Information you provide
-- **Dream journal entries** — text descriptions of your dreams
-- **Audio recordings** — voice memos you record inside the app
-- **Mood and tag data** — metadata you attach to journal entries
+## 1. About This App
 
-### Information collected automatically
-- **Purchase data** — subscription status via Google Play Billing (processed by Google; we do not store payment details)
-- **App usage data** — crash reports via Android's built-in crash reporting (no personal content included)
+DreamWeave is a private dream journal. It allows you to write dream entries, record voice memos, and optionally analyse dream content using the Google Gemini API. The App is designed to keep your personal journal data on your device.
 
-## 2. How We Use Your Information
+---
 
-- To provide AI-powered dream interpretation via the Google Gemini API. Dream text you submit for interpretation is sent to Google's Gemini API and is subject to [Google's Privacy Policy](https://policies.google.com/privacy).
-- To store your journal entries locally on your device using the Android Room database.
-- To generate statistics and pattern analysis from your dream history.
-- To process in-app subscription purchases via Google Play Billing.
+## 2. Data We Do Not Collect
 
-## 3. Data Storage
+Sudarshan Tech Labs does not collect, store, or process any personal data on its own servers. We have no backend database or account system. Your dream journal entries and audio recordings remain on your device.
 
-All dream journal entries, audio recordings, and mood data are stored **locally on your device**. We do not operate servers that store your personal dream content. When you use the AI interpretation feature, the text of that specific dream entry is transmitted to the Google Gemini API over an encrypted HTTPS connection.
+---
 
-## 4. Data Sharing
+## 3. Data Stored Locally on Your Device
 
-We do not sell or share your personal data with third parties except:
-- **Google Gemini API** — dream text sent for AI interpretation (encrypted in transit)
-- **Google Play Billing** — subscription purchase verification
+The following data is created and stored exclusively on your device:
 
-## 5. Permissions Used
+| Data | Purpose | Storage |
+|---|---|---|
+| Dream journal entries (text, mood, date) | Core app functionality | Room database (local) |
+| Audio recordings (voice memos) | Voice dream recording | Device local storage |
+| App preferences and settings | Personalisation | SharedPreferences (local) |
 
-| Permission | Purpose |
+This data never leaves your device unless you explicitly export or share it using Android's sharing system.
+
+---
+
+## 4. Third-Party Services
+
+### 4.1 Google Gemini API
+
+When you use the AI dream analysis feature, the text of your dream entry is sent to the Google Gemini API for processing. This transmission occurs only when you explicitly request an analysis.
+
+- **Data sent:** Dream entry text only
+- **Purpose:** Generate AI-powered insights about dream content
+- **Stored by us:** No — we do not receive or store the response on any server
+- **Google's privacy policy:** https://policies.google.com/privacy
+
+If you do not use the AI analysis feature, no data is sent to Gemini.
+
+### 4.2 Google Play Billing
+
+In-app purchases are processed by Google Play. We do not receive or store payment information.
+
+- **Google Play terms:** https://play.google.com/about/play-terms/
+
+---
+
+## 5. Permissions Explained
+
+| Permission | Reason |
 |---|---|
-| `RECORD_AUDIO` | Capture voice dream recordings you initiate |
-| `INTERNET` | Connect to the Gemini AI API for dream interpretation |
-| `VIBRATE` | Journal reminder notifications |
-| `WAKE_LOCK` | Keep CPU active during active audio recording sessions |
+| `RECORD_AUDIO` | Required to record voice memos of your dreams |
+| `INTERNET` | Required to call the Gemini API for AI analysis (optional feature) |
+| `ACCESS_NETWORK_STATE` | Required to check connectivity before making API calls |
+| `WRITE_EXTERNAL_STORAGE` (Android 9 and below) | Required to export files on legacy Android versions |
+| `READ_EXTERNAL_STORAGE` (Android 9 and below) | Required to access files on legacy Android versions |
+| `VIBRATE` | Provides haptic feedback in the UI |
+| `WAKE_LOCK` | Keeps the screen active during audio recording |
 
-## 6. Children's Privacy
+---
 
-DreamWeave is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.
+## 6. Data Retention and Deletion
 
-## 7. Your Rights
+All App data is stored locally on your device. You control it entirely:
 
-- **Access & deletion** — all your data is on your device; delete it anytime through app settings or by uninstalling.
-- **Data export** — premium users can export their full journal.
+- **Delete individual entries:** Use the delete function within the App
+- **Delete all data:** Clear app data via Android Settings, or uninstall the App
 
-## 8. Changes to This Policy
+When you uninstall the App, all locally stored data is permanently removed.
 
-We may update this Privacy Policy from time to time. The updated version will be indicated by an updated "Last updated" date above.
+---
 
-## 9. Contact Us
+## 7. Children's Privacy
 
-**Email:** privacy@sudarshantechlabs.com
-**Developer:** Sudarshantechlabs, Bangkok, Thailand
+DreamWeave is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child under 13 is using the App, please contact us.
+
+---
+
+## 8. Data Security
+
+- All journal data is stored in a local Room database on your device
+- Android's application sandboxing ensures no other app can access this data without your permission
+- Audio files are stored in the App's private directory
+- No data is transmitted to Sudarshan Tech Labs servers
+
+---
+
+## 9. Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last updated" date. Continued use of the App after changes become effective constitutes acceptance of the updated policy.
+
+---
+
+## 10. Contact
+
+**Sudarshan Tech Labs**
+Official website: https://sudarshantechlabs.com
+Company email: sudarshantechlabs@gmail.com
+Developer contact: sunny.sudarshan@gmail.com
+
+---
+
+## Play Store Data Safety Summary
+
+- **Data collected by the App:** None
+- **Data shared with third parties:** Dream text (Gemini API, user-initiated only)
+- **Data encrypted in transit:** Yes (HTTPS)
+- **User can request deletion:** Yes (uninstall or clear app data)
+
+---
+
+*This policy applies to the DreamWeave Android application published by Sudarshan Tech Labs.*
