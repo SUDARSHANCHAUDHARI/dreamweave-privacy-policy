@@ -1,13 +1,5 @@
 # DreamWeave Privacy Policy
 
-This repository contains the public privacy policy for DreamWeave.
-
-- Privacy policy: [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
-- Web version: https://sudarshanchaudhari.github.io/dreamweave-privacy-policy/
-- Contact: sunny.sudarshan@gmail.com
-
-# DreamWeave Privacy Policy
-
 **Effective Date:** May 17, 2026
 _Last updated: May 17, 2026_
 **Version:** 1.1.0
@@ -222,4 +214,3 @@ The app collects only the data needed for the features described in this policy,
 
 - **Aligned policy with the MyFamilyTracker privacy-policy structure.**
 - **Clarified local dream storage, optional audio notes, Gemini AI processing, and Google Play Billing.**
-
