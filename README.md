@@ -60,7 +60,7 @@ DreamWeave ("we," "our," or "us") is an Android app. DreamWeave is a private dre
 ## Data Sharing
 
 ### Family Groups
-- DreamWeave does not use MyFamilyTracker-style family groups unless explicitly described in this policy.
+- DreamWeave does not use family groups unless explicitly described in this policy.
 - If this app includes pairing, sharing, or collaboration features, data is shared only with the people or services required for the feature you choose.
 - You control feature use through the app settings, permissions, account controls, or platform settings.
 
@@ -220,6 +220,6 @@ The app collects only the data needed for the features described in this policy,
 
 ## Recent Updates (Version 1.1.0 - May 17, 2026)
 
-- **Aligned policy with the MyFamilyTracker privacy-policy structure.**
+- **Aligned policy with the shared SudarshanTechLabs privacy-policy structure.**
 - **Clarified local dream storage, optional audio notes, Gemini AI processing, and Google Play Billing.**
 
