@@ -220,6 +220,6 @@ The app collects only the data needed for the features described in this policy,
 
 ## Recent Updates (Version 1.1.0 - May 17, 2026)
 
-- **Aligned policy with the MyFamilyTracker privacy-policy structure.**
+- **Aligned policy with the shared SudarshanTechLabs privacy-policy structure.**
 - **Clarified local dream storage, optional audio notes, Gemini AI processing, and Google Play Billing.**
 
