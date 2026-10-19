@@ -1,8 +1,8 @@
 # DreamWeave Privacy Policy
 
 **Effective Date:** May 17, 2026
-_Last updated: May 17, 2026_
-**Version:** 1.1.0
+_Last updated: October 19, 2026_
+**Version:** 1.2.0
 
 DreamWeave ("we," "our," or "us") is an Android app. DreamWeave is a private dream journal for Android devices with optional AI dream analysis and audio capture features. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using DreamWeave you agree to the practices described below.
 
@@ -36,7 +36,7 @@ DreamWeave ("we," "our," or "us") is an Android app. DreamWeave is a private dre
 ## Storage and Retention
 
 ### Data Storage
-- Dream entries, tags, audio recordings, generated interpretations, and preferences are stored locally using on-device storage such as Room/DataStore.
+- Dream entries, tags, audio recordings, generated interpretations, and preferences are stored locally using on-device storage such as a Room database.
 - Optional AI analysis sends the dream text you choose to analyze to Google Gemini; Sudarshan Tech Labs does not operate a separate dream-data server.
 
 ### Data Retention
@@ -44,7 +44,7 @@ DreamWeave ("we," "our," or "us") is an Android app. DreamWeave is a private dre
 - Legacy exported or shared files remain wherever you choose to save them.
 
 ### Data Security
-- Data is protected using platform security controls available on Android, the browser, Firebase, Google, GitHub, or other services named in this policy.
+- Data is protected using platform security controls available on Android, the browser, Google, GitHub, or other services named in this policy.
 - Local data remains on your device or browser unless a feature you use requires a named third-party service.
 - Network communication uses HTTPS/TLS where applicable.
 - You should protect your device, browser profile, and Google/GitHub accounts with strong authentication.
@@ -180,7 +180,7 @@ To request deletion of your data:
 4. Request account/data deletion and include enough detail for us to identify the app and any account, if one exists
 5. We will confirm what data can be deleted and complete the request according to the retention terms above
 
-## Firebase and Google Services
+## Google Services
 
 This app may use the following services depending on the features you enable and the installed version:
 
@@ -190,7 +190,6 @@ This app may use the following services depending on the features you enable and
 Please review relevant third-party privacy policies:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
-- [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
 - [Google Play Terms](https://play.google.com/about/play-terms/)
 - [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
 
@@ -198,7 +197,7 @@ Please review relevant third-party privacy policies:
 
 DreamWeave is built with privacy in mind. The app is built with:
 - Kotlin and Jetpack Compose
-- Room/DataStore for local storage
+- Room for local storage
 - Google Gemini for optional AI analysis
 - Google Play Billing for premium features
 
@@ -206,9 +205,14 @@ The app collects only the data needed for the features described in this policy,
 
 ---
 
-**Last Updated:** May 17, 2026
+**Last Updated:** October 19, 2026
 
 ---
+
+## Recent Updates (Version 1.2.0 - October 19, 2026)
+
+- **Removed Firebase references; the app does not use Firebase.**
+- **Corrected local storage to Room; the app does not use DataStore.**
 
 ## Recent Updates (Version 1.1.0 - May 17, 2026)
 
