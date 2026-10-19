@@ -25,8 +25,8 @@
     <article>
       <h1>DreamWeave Privacy Policy</h1>
       <p><strong>Effective Date:</strong> May 17, 2026</p>
-      <p><em>Last updated: May 17, 2026</em></p>
-      <p><strong>Version:</strong> 1.1.0</p>
+      <p><em>Last updated: October 19, 2026</em></p>
+      <p><strong>Version:</strong> 1.2.0</p>
       <p>DreamWeave (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is an Android app. DreamWeave is a private dream journal for Android devices with optional AI dream analysis and audio capture features. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using DreamWeave you agree to the practices described below.</p>
       <h2>Information We Collect</h2>
       <h3>Location Data</h3>
@@ -62,7 +62,7 @@
       <h2>Storage and Retention</h2>
       <h3>Data Storage</h3>
       <ul>
-      <li>Dream entries, tags, audio recordings, generated interpretations, and preferences are stored locally using on-device storage such as Room/DataStore.</li>
+      <li>Dream entries, tags, audio recordings, generated interpretations, and preferences are stored locally using on-device storage such as a Room database.</li>
       <li>Optional AI analysis sends the dream text you choose to analyze to Google Gemini; Sudarshan Tech Labs does not operate a separate dream-data server.</li>
       </ul>
       <h3>Data Retention</h3>
@@ -72,7 +72,7 @@
       </ul>
       <h3>Data Security</h3>
       <ul>
-      <li>Data is protected using platform security controls available on Android, the browser, Firebase, Google, GitHub, or other services named in this policy.</li>
+      <li>Data is protected using platform security controls available on Android, the browser, Google, GitHub, or other services named in this policy.</li>
       <li>Local data remains on your device or browser unless a feature you use requires a named third-party service.</li>
       <li>Network communication uses HTTPS/TLS where applicable.</li>
       <li>You should protect your device, browser profile, and Google/GitHub accounts with strong authentication.</li>
@@ -212,7 +212,7 @@
       <li>Request account/data deletion and include enough detail for us to identify the app and any account, if one exists</li>
       <li>We will confirm what data can be deleted and complete the request according to the retention terms above</li>
       </ol>
-      <h2>Firebase and Google Services</h2>
+      <h2>Google Services</h2>
       <p>This app may use the following services depending on the features you enable and the installed version:</p>
       <ul>
       <li>Google Gemini API for optional AI dream analysis</li>
@@ -221,7 +221,6 @@
       <p>Please review relevant third-party privacy policies:</p>
       <ul>
       <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-      <li><a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a></li>
       <li><a href="https://play.google.com/about/play-terms/">Google Play Terms</a></li>
       <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a></li>
       </ul>
@@ -229,14 +228,19 @@
       <p>DreamWeave is built with privacy in mind. The app is built with:</p>
       <ul>
       <li>Kotlin and Jetpack Compose</li>
-      <li>Room/DataStore for local storage</li>
+      <li>Room for local storage</li>
       <li>Google Gemini for optional AI analysis</li>
       <li>Google Play Billing for premium features</li>
       </ul>
       <p>The app collects only the data needed for the features described in this policy, and local-first features keep data on your device whenever possible.</p>
       <hr>
-      <p><strong>Last Updated:</strong> May 17, 2026</p>
+      <p><strong>Last Updated:</strong> October 19, 2026</p>
       <hr>
+      <h2>Recent Updates (Version 1.2.0 - October 19, 2026)</h2>
+      <ul>
+      <li><strong>Removed Firebase references; the app does not use Firebase.</strong></li>
+      <li><strong>Corrected local storage to Room; the app does not use DataStore.</strong></li>
+      </ul>
       <h2>Recent Updates (Version 1.1.0 - May 17, 2026)</h2>
       <ul>
       <li><strong>Aligned policy with the shared SudarshanTechLabs privacy-policy structure.</strong></li>
